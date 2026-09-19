@@ -13,3 +13,23 @@ class Employee{
 let emp = new Employee();
 
 emp.salary();
+
+class Bike{
+    
+    bajaj(){
+        console.log("Pulsar");
+    }
+
+    honda(){
+        console.log("Shine");
+    }
+
+    royalEnfield(){
+        console.log("Himalayan");
+    }
+}
+
+let bike = new Bike();
+bike.royalEnfield();
+bike.honda();
+bike.bajaj();
