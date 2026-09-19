@@ -28,3 +28,23 @@ class Teams{
         console.log('Five Time Champion');
     }
 }
+
+class Bike{
+    
+    bajaj(){
+        console.log("Pulsar");
+    }
+
+    honda(){
+        console.log("Shine");
+    }
+
+    royalEnfield(){
+        console.log("Himalayan");
+    }
+}
+
+let bike = new Bike();
+bike.royalEnfield();
+bike.honda();
+bike.bajaj();
