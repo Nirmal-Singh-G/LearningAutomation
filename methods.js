@@ -13,3 +13,18 @@ class Employee{
 let emp = new Employee();
 
 emp.salary();
+
+class Teams{
+    
+    rcb(){
+        console.log("Two Times Champion")
+    }
+
+    mi(){
+        console.log("Five Time Champion");
+    }
+
+    csk(){
+        console.log('Five Time Champion');
+    }
+}
